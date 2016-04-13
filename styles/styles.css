@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.button {
+	padding: 10px;
+}
+
+.button-primary {
+	background-color: #444;
+	color: #FFF;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header {
+	font-size: 1em;
+	padding: 0% 2% 1%;	
+}	
+
+.itens-group {
+	padding: 0;
+}
+
+.itens-group--navbar {
+	display: inline-block;
+}
+
+.link  {
+	text-decoration: none;
+}
+
+.navbar {
+	position: relative;
+}
