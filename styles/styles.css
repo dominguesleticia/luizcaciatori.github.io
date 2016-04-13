@@ -29,12 +29,20 @@ body {
 	margin-right: 0px;	
 }
 
-.icon-update--active::after {
-	content: '\002B';
-}
-
 .icon-delete--active::after {
 	content: '\002D';
+}
+
+.icon-info--active::after {
+	content: '\003F';
+}
+
+.icon-pendence--active::after {
+	content: '\0021';
+}
+
+.icon-update--active::after {
+	content: '\002B';
 }
 
 .itens-group {
@@ -57,6 +65,20 @@ body {
 	text-decoration: none;
 }
 
+.link-group{
+	text-align: right;
+}
+
+.list{
+	padding: 0;
+}
+
+.list-item {
+	display: block;
+}
+
 .list-item-description {
-	width: 90%;
+	width: 83%;
+	float: left;
+	min-width: 83%;
 }
