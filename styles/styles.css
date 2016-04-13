@@ -35,19 +35,19 @@ body {
 }
 
 .icon-delete--active::after {
-	content: '\002D';
+	content: '\2716';
 }
 
 .icon-info--active::after {
-	content: '\003F';
+	content: '\1F50D';
 }
 
 .icon-pendence--active::after {
-	content: '\0021';
+	content: '\2757';
 }
 
 .icon-update--active::after {
-	content: '\002B';
+	content: '\270E';
 }
 
 .itens-group {
@@ -83,7 +83,7 @@ body {
 }
 
 .list-item-description {
-	width: 80%;
+	width: 76%;
 	float: left;
-	min-width: 8%;
+	min-width: 76%;
 }
