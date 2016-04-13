@@ -27,7 +27,7 @@
 
 .input {
 	height: 2.5em;
-	margin: 0 auto 5%;	
+	margin: 0 auto 2.5%;	
 	width: 100%;
 	border: 1px solid #333;
 }
@@ -46,4 +46,8 @@
 	padding: 2%;
 	text-align: center;
 	width: 100%;		
+}
+
+#btnCancelar {
+	display: none;
 }
