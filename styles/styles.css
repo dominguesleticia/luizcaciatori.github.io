@@ -83,7 +83,7 @@ body {
 }
 
 .list-item-description {
-	width: 83%;
+	width: 80%;
 	float: left;
-	min-width: 83%;
+	min-width: 8%;
 }
