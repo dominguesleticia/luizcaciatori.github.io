@@ -1,8 +1,8 @@
 function returnLastPage() {
-	window.history.back();
+	window.history.go(-1);
 }
 
 function dataSave() {
 	alert('Registro Salvo com Sucesso!')	
-	window.history.back();
+	window.history.go(-1);
 }
