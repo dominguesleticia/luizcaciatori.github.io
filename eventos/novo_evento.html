@@ -14,22 +14,51 @@
 		<header class="header"><h1 class="header-title">Eventos</h1></header>
 		<fieldset class="fieldset">
 			<form class="form">
-				<input type="text" placehoder="Evento" class="input">
-				<input placehoder="Status" class="input" list="status">
-				<datalist id="status">
-					<option value="Assinatura Agendada"></option>
-					<option value="Cadastrado"></option>
-					<option value="Cancelado"></option>
-					<option value="Executado"></option>
-					<option value="Fechado Direto"></option>
-				</datalist>
+				<div>
+					<label>Evento</label>
+					<input type="text"class="input">
+				</div>
 
-				<input type="date" placehoder="Data" class="input">
-				<input type="text" placehoder="Local do Evento" class="input">
-				<input type="time" placehoder="Horário do Evento" class="input">
-				<input type="number" placehoder="Quantidade de Pessoas" class="input">
-				<input type="time" placehoder="Horário da Cerimônia" class="input">
-				<textarea placehoder="Observações" rows="5" class="input input-textarea-active"></textarea>
+				<div>
+					<label>Status</label>					
+					<select id="status" class="input"> 
+						<option>Assinatura Agendada</option>
+						<option>Cadastrado</option>
+						<option>Cancelado</option>
+						<option>Executado</option>
+						<option>Fechado Direto</option>
+					</select>
+				</div>
+
+				<div>
+					<label>Data do Evento</label>
+					<input type="date" class="input">
+				</div>
+
+				<div>
+					<label>Local do Evento</label>
+					<input type="text" class="input">
+				</div>
+
+				<div>
+					<label>Horário do Evento</label>
+					<input type="time" placehoder="Horário do Evento" class="input">
+				</div>
+
+				<div>
+					<label>Quantidade de Pessoas</label>
+					<input type="number" class="input">
+				</div>
+
+				<div>
+					<label>Horário da Cerimônia</label>
+					<input type="time" class="input">
+				</div>
+				
+				<div>
+					<label>Observações</label>
+					<textarea rows="5" class="input input-textarea-active"></textarea>
+				</div>
 			</form>
 		</fieldset>
 	</main>
