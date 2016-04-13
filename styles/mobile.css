@@ -6,6 +6,11 @@
 	width: 90%;
 }
 
+.fieldset {
+	width: 100%;
+	padding: 1%;
+}
+
 .header-title, .header-subtitle {
 	text-align: center;
 }
@@ -13,10 +18,16 @@
 .header-subtitle {
 	margin-top: -15px; 
 }
+
 .input {
 	height: 2.5em;
 	margin: 0 auto 2.5%;	
 	width: 100%;
+	border: 1px solid #333;
+}
+
+.input-textarea-active {
+	height: 15%;	
 }
 
 .itens-group--navbar {
