@@ -2,6 +2,12 @@
 	font-size: 1.5em;
 }
 
+.button-primary {
+	width: 100%;
+	background-color: #444;
+	border: none;
+}
+
 .container {
 	width: 90%;
 }
