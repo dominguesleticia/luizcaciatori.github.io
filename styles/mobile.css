@@ -1,5 +1,5 @@
 .button {
-	padding: 15%;
+	font-size: 1.5em;
 }
 
 .container {
@@ -16,8 +16,8 @@
 
 .itens-group--navbar {
 	display: block;
-	margin: 2% auto;
-	padding: 1%;
+	margin: 3% auto;
+	padding: 2%;
 	text-align: center;
 	width: 100%;		
 }
