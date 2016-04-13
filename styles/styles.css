@@ -12,7 +12,6 @@ body {
 }
 
 .button-primary {
-	background-color: #444;
 	color: #FFF;
 }
 
@@ -32,12 +31,25 @@ body {
 
 .itens-group--navbar {
 	display: inline-block;
+	background-color: #444;
 }
 
 .link  {
 	text-decoration: none;
 }
 
-.navbar {
-	position: relative;
+
+/*Layout Mobile*/
+@media (max-width: 600px)  {
+	.header-title, .header-subtitle {
+		text-align: center;
+	}
+
+	.itens-group--navbar {
+		display: block;
+		margin: 2% auto;
+		padding: 1%;
+		text-align: center;
+		width: 100%;		
+	}
 }
