@@ -41,9 +41,12 @@ body {
 	padding: 0;
 }
 
+.itens-group--navbar, .input-submit--active {
+	background-color: #444;
+}
+
 .itens-group--navbar {
 	display: inline-block;
-	background-color: #444;
 }
 
 .link  {
