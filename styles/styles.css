@@ -37,6 +37,10 @@ body {
 	content: '\002D';
 }
 
+.input {
+	width: 30%;
+}
+
 .itens-group {
 	padding: 0;
 }
