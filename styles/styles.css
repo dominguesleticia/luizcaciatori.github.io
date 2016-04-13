@@ -49,6 +49,10 @@ body {
 	display: inline-block;
 }
 
+.label {
+	display: block;
+}
+
 .link  {
 	text-decoration: none;
 }
