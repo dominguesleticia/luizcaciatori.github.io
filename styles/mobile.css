@@ -9,6 +9,7 @@
 .fieldset {
 	width: 100%;
 	padding: 1%;
+	border: none;
 }
 
 .header-title, .header-subtitle {
