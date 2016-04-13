@@ -1,0 +1,19 @@
+.container {
+	width: 90%;
+}
+
+.header-title, .header-subtitle {
+	text-align: center;
+}
+
+.header-subtitle {
+	margin-top: -15px; 
+}
+
+.itens-group--navbar {
+	display: block;
+	margin: 2% auto;
+	padding: 1%;
+	text-align: center;
+	width: 100%;		
+}
