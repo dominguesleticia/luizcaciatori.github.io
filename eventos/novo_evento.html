@@ -15,11 +15,19 @@
 		<fieldset>
 			<form>
 				<input type="text" placehoder="Evento" class="input">
-				<input type="text" placehoder="Status" class="input">
+				<input type="text" placehoder="Status" class="input" list="status">
+				<datalist id="status">
+					<option value="Assinatura Agendada"></option>
+					<option value="Cadastrado"></option>
+					<option value="Cancelado"></option>
+					<option value="Executado"></option>
+					<option value="Fechado Direto"></option>
+				</datalist>
+
 				<input type="date" placehoder="Data" class="input">
-				<input type="autocomplete" placehoder="Local do Evento" class="input">
+				<input type="text" placehoder="Local do Evento" class="input">
 				<input type="time" placehoder="Horário do Evento" class="input">
-				<input type="text" placehoder="Local da Cerimônia" class="input">
+				<input type="number" placehoder="Quantidade de Pessoas" class="input">
 				<input type="time" placehoder="Horário da Cerimônia" class="input">
 				<textarea placehoder="Observações" ows="5"></textarea>
 			</form>
