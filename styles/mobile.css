@@ -17,12 +17,16 @@
 	border: none;
 }
 
+.header {
+	padding: 0% 2% 0%;	
+}	
+
 .header-title, .header-subtitle {
 	text-align: center;
 }
 
 .header-subtitle {
-	margin-top: -15px; 
+	margin-top: -15px; 	
 }
 
 .input {

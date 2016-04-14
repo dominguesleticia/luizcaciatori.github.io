@@ -7,6 +7,12 @@ body {
   font-size: 16px;
 }
 
+.action-group {
+	width: 15%;
+	text-align: right;
+	vertical-align: top;
+}
+
 .button {
 	padding: 10px;
 }
@@ -20,6 +26,11 @@ body {
 	margin: 0 auto;
 }
 
+.event-description {
+	width: 80%;
+	text-align: left;
+}
+
 .header {
 	font-size: 1em;
 	padding: 0% 2% 1%;	
@@ -31,14 +42,6 @@ body {
 
 .icon-delete--active::after {
 	content: '\2716';
-}
-
-.icon-info--active::after {
-	content: '\1F50D';
-}
-
-.icon-pendence--active::after {
-	content: '\2757';
 }
 
 .icon-update--active::after {
@@ -65,20 +68,27 @@ body {
 	text-decoration: none;
 }
 
-.link-group{
-	text-align: right;
-}
-
 .list{
 	padding: 0;
+	text-align: left;
 }
 
 .list-item {
 	display: block;
+	border-bottom: 1px solid #C2C2C2;
+	padding-bottom: 2%;
+}
+
+.sublist {
+	padding: 0;
+}
+
+.sublist-element--active{
+	display: inline-block;
 }
 
 .list-item-description {
-	width: 76%;
-	float: left;
-	min-width: 76%;
+	width: 90%;
+	font-size: 1em;
+
 }
