@@ -47,10 +47,14 @@ body {
 
 .icon-delete--active::after {
 	content: '\2716';
+	color: #FF0000;
+	font-size: 1.10em;
 }
 
 .icon-update--active::after {
 	content: '\270E';
+	color: #0076FC;
+	font-size: 1.10em;
 }
 
 .itens-group {
