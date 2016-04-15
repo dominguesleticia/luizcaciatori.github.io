@@ -13,7 +13,7 @@ a {
 }
 
 .action-group {
-	width: 15%;
+	width: 20%;
 	text-align: right;
 	vertical-align: top;
 }
@@ -32,7 +32,7 @@ a {
 }
 
 .event-description {
-	width: 80%;
+	width: 75%;
 	text-align: left;
 }
 
@@ -53,13 +53,13 @@ a {
 .icon-delete--active::after {
 	content: '\2716';
 	color: #FF0000;
-	font-size: 1.10em;
+	font-size: 1.6em;
 }
 
 .icon-update--active::after {
 	content: '\270E';
 	color: #0076FC;
-	font-size: 1.10em;
+	font-size: 1.6em;
 }
 
 .itens-group {
@@ -76,6 +76,11 @@ a {
 
 .label {
 	display: block;
+}
+
+.link  {
+	color: #FFF;
+	text-decoration: none;
 }
 
 .list{
