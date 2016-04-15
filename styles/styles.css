@@ -7,8 +7,11 @@ body {
   font-size: 16px;
 }
 
-a:link, a:visited, a:hover, a:active {
+a {	
 	text-decoration: none;
+}
+
+a {
 	color: #000;
 }
 
@@ -79,6 +82,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .link  {
+	color: #FFF;
 	text-decoration: none;
 }
 
